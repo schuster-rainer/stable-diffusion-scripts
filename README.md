@@ -9,4 +9,21 @@ After finishing randomization it will print out the list representation for prev
 
 ## Installation
 
-You need to have python3 on your system. The script was tested and developed with pyhton 3.10 on a Mac, but it should run fine with some older versions of python as well being cross platform
+You need to have python3 on your system. The script was tested and developed with pyhton 3.10 on a Mac, but it should run fine with some older versions of python as well being cross platform.
+
+Execute: (On windows you need yo use python3.exe)
+
+```
+python3 -m venv .env
+source .env/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+
+```
+
+Not you can execute the weights script.
+
+```
+./weights.py add
+./weights.py remove
+```
